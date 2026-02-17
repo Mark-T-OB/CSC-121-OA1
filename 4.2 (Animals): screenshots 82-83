@@ -1,0 +1,4 @@
+animals=['snake','lizard','turtle']
+for animal in animals:
+	print(animal.title() +" is a reptile.")
+print("These animals are a bunch of reptiles.")
