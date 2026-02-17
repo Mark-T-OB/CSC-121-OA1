@@ -1,0 +1,26 @@
+guest=["Pitt the Elder","Brian Cranston","Bingo Gazingo"]
+print(guest)
+message = "Hey there " + guest[0] + ", thanks for seeing Great Britan through those trying times. Want to do dinner sometime? Love you."
+print(message)
+message = "What up Bri-Guy?? I'm doing food with Pitt and Bingo later. You coming? Love you " + guest[1] + "."
+print(message)
+message = "OMG! I can't believe it's you, " + guest[2] + "! I'm you're biggest fan! You've got to come down and hang at my place tonight. I'm making canolli. Love you. bye. :)"
+print(message)
+print("Hey guys. I found more table. There's gonna be more people, but one of y'all's gonna have to come down to the re-store and help me move this thing.")
+guest.insert(0, "Ruyard Kipling")
+guest.insert(2, "Pablo Picasso")
+guest.append("Lizzo")
+message = "Hey there " + guest[0] +". Lets do dinner with my big table."
+print(message)
+message = "Good evening " + guest[2]+ ". I hope you're well. lets do food."
+print(message)
+message= "Hello " + guest[5] +" how are you? Hope you can join me and the bois for dinner."
+print(message)
+guest.sort()
+print(guest)
+print("\nThe first three items in the list are:")
+print(guest[:3])
+print("\nThree items from the middle of the list are:")
+print(guest[2:5])
+print("\nThe last three items in the list are:")
+print(guest[3:])
